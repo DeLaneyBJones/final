@@ -1,13 +1,13 @@
 ---
-order: 2
+order: 1
 layout: default
-header: Our Mission
+header: Background
 ---
 
-The Muppet Show is a comedy television series created by Jim Henson and featuring The Muppets. The series originated as two pilot episodes produced by Henson for ABC in 1974 and 1975, respectively. While neither episode was moved forward as a series and other networks in the United States rejected Henson's proposals, British producer Lew Grade expressed interest in the project and agreed to co-produce The Muppet Show for ATV. Five seasons, totalling 120 episodes, were broadcast on ATV and other ITV franchises in the UK and in first-run syndication in the US from 1976 to 1981. The programme was filmed at Elstree Studios, England.
+Dinosaurs are a diverse group of reptiles of the clade Dinosauria. They first appeared during the Triassic period, between 243 and 233.23 million years ago, although the exact origin and timing of the evolution of dinosaurs is the subject of active research. They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201 million years ago; their dominance continued through the Jurassic and Cretaceous periods. The fossil record demonstrates that birds are modern feathered dinosaurs, having evolved from earlier theropods during the Late Jurassic epoch. As such, birds were the only dinosaur lineage to survive the Cretaceous–Paleogene extinction event 66 million years ago. Dinosaurs can therefore be divided into avian dinosaurs, or birds; and non-avian dinosaurs, which are all dinosaurs other than birds. 
 
-The Muppet Show is presented as a variety show, featuring recurring sketches and musical numbers interspersed with plotlines taking place behind the show. Within its context, Kermit the Frog acts as showrunner and host of the show, who tries to maintain control of the overwhelming antics of the other Muppet characters, as well as appease the rotating slate of guest stars.[3] The Muppet Show is also known for its uniquely designed characters, burlesque nature, physical slapstick, sometimes absurdist humor, and parodies.[4] As The Muppet Show became popular, many celebrities were eager to perform with the Muppets on television and in film.
+We all know T. rex as a huge, ferocious monster from the past that wants nothing more than to consume everything that lives. However, in real life, Tyrannosaurus rex hardly lives up to its Hollywood reputation. In fact, it is now widely believed in the scientific community that Tyrannosaurus rex was not a hunter at all. However, T. rex was not the only giant carnivorous dinosaur to exist during the Mesozoic Era. Compared to some of the truly horrifying theropods out there, Tyrannosaurus rex looks like a cute puppy dog. Although T. rex will always be the “king of the dinosaurs” in our hearts, it is time to examine some contenders that might overthrow this behemoth for the title.
 
+<a href="https://listverse.com/2018/12/26/10-lesser-known-dinosaurs-that-were-scarier-than-tyrannosaurus-rex/"> Source: 10 lesser known dinosaurs that were scarier than the tryrannosaurus rex</a>
 
-https://en.wikipedia.org/wiki/List_of_Muppets
-https://en.wikipedia.org/wiki/The_Muppet_Show
+<a href="https://en.wikipedia.org/wiki/Dinosaur"> Source: Wikipedia - Dinosaurs</a>

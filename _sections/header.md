@@ -1,8 +1,8 @@
 ---
-logo: ../assets/images/town_hall_logo.gif
-companyName: My Fake Company 
-motto: This is a motto!
-bckImg: ../assets/images/background.jpeg
+logo:
+companyName: Dinosaurs 
+motto: 10 Awesome But Lesser Known Dinosaurs
+bckImg: ../assets/images/5-Pachycephalosaurus.jpg
 order: 0
 title: header section
 ---
@@ -11,7 +11,7 @@ title: header section
     <img src="{{page.bckImg}}" alt="Background image">
     <div class="centered">
         <div>
-            <img src="{{page.logo}}" alt="Company logo">
+            <img src="{{page.logo}}">
         </div>
         <div>
             <h1>{{page.companyName}}</h1>
