@@ -29,7 +29,7 @@ slides: [
                                         <div class="col-sm-6">
                                             <select class="form-control" id="sel1" required>
                                                 {%- for value in data[2] -%}
-                                                    <option placeholder="{{data[0]}}" class="col-sm-6 is-valid" id="{{data[1]}}" required>{{value}}</option>
+                                                    <option placeholder="{{data[0]}}" class="col-sm-6 is-valid" id="{{data[1]}}" name="{{data[1]}}"required>{{value}}</option>
                                                 {%- endfor -%}
                                                 <div class="valid-feedback">
                                                     Looks good!
@@ -47,7 +47,7 @@ slides: [
                         <!--This is for the text area-->
                         {%- if data[1] == "textarea" -%}
                             <div class="section-content form-group">
-                                <textarea class="col-sm-12 form-control" placeholder="{{data[0]}}" required></textarea>
+                                <textarea name="textarea" class="col-sm-12 form-control" placeholder="{{data[0]}}" required></textarea>
                             </div>
                         {%-endif -%}
                         
@@ -66,7 +66,7 @@ slides: [
                         {%- if (data[1] == "radio") -%}
                             <div class="section-content form-group row form-check form-check-inline">
                                 <label for="{{data[1]}}">{{data[0]}}</label>
-                                <input type="radio" name="data[0]" class="col-sm-12" data-toggle="collapse" data-target="#creditInfo" aria-controls="creditInfo" required>
+                                <input type="radio" name="{{data[0]}}" class="col-sm-12" data-toggle="collapse" data-target="#creditInfo" aria-controls="creditInfo" required>
                                 <!--So now how do I activate it only on the credit radio button?-->
                                     <div class="col-sm-12 collapse" id="creditInfo">
                                         <h2 class="t-primary">{{data[2][0]}}</h2>
@@ -74,16 +74,16 @@ slides: [
                                             {%- for value in data[2] -%}
                                                 {%- if value[2] -%}
                                                     <div>
-                                                        <select class="form-control" required>
+                                                        <select class="form-control" required name="{{data}}">
                                                             {%- for data in value[2] -%}
-                                                                <option required>{{data}}</option>
+                                                                <option required name="{{data}}">{{data}}</option>
                                                             {%- endfor -%}
                                                         </select>
                                                     </div>
                                                 {%- endif -%}
                                                 <div class="section-content form-group row">
                                                     {%- if !value[0] -%}
-                                                        <input type="{{value[1][0]}}" id="{{value[1]}}" class="col-sm-6 form-control" placeholder="{{value[0]}}" required>
+                                                        <input type="{{value[1][0]}}" id="{{value[1]}}" name="{{value[1]}}" class="col-sm-6 form-control" placeholder="{{value[0]}}" required>
                                                     {%- endif -%}
                                                 </div>
                                                 
@@ -99,7 +99,7 @@ slides: [
                                 {%- if data[1] != "textarea" -%}
                                     <div class="section-content form-group row">
                                         <div class="col-sm-12">
-                                            <input type="{{data[1]}}" id="{{data[1]}}" placeholder="{{data[0]}}" class="col-sm-6 form-control" required>
+                                            <input type="{{data[1]}}" name = "{{data[1]}}" id="{{data[1]}}" placeholder="{{data[0]}}" class="col-sm-6 form-control" required>
                                         </div>
                                     </div>
                                 {%- endif -%}
@@ -113,7 +113,7 @@ slides: [
         <!-- I want this to show up ONLY if this is not the last content page-->
         <div class="section-content form-group row">
             <label class=" col-sm-12" for="submit">
-                <button class="t-secondary b-primary btn">Submit</button>
+                <button name="submit" class="t-secondary b-primary btn">Submit</button>
             </label>
         </div>
     </form>
